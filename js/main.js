@@ -89,7 +89,7 @@ const ENDPOINT='https://script.google.com/macros/s/AKfycby_fce2Ifn4CFkmFK7caq3Fv
   });
 })();
 
-/* 画面に入ったら動かす（構成図・受講後スキルシート・ロードマップ・320時間のカウント）。
+/* 画面に入ったら動かす（構成図・ロードマップ・320時間のカウント）。
    視差効果を減らす設定や IntersectionObserver 非対応では何もしない＝完成形のまま表示 */
 (function(){
   if(!('IntersectionObserver' in window)||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
